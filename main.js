@@ -20,8 +20,8 @@ poseNet.on('pose', gotPoses);
 function gotPoses(results){
 if(results.length >0){
 console.log(results);
-noseX = results[0].pose.nose.x-15;
-noseY = results[0].pose.nose.y+5;
+noseX = results[0].pose.nose.x-20;
+noseY = results[0].pose.nose.y+1;
 console.log("nose x = " + results[0].pose.nose.x);
 console.log("nose y = " + results[0].pose.nose.y);
 }
